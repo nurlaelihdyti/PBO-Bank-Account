@@ -20,7 +20,9 @@ Program simulasi bank sederhana dengan class Account, Customer, dan Bank.
 Tidak ada library tambahan. Hanya memakai java.util.ArrayList dan java.util.Scanner bawaan Java.
 
 ## Screenshot Hasil
-HASIL-OUTPUT/hasil1.png
+<img width="501" height="540" alt="hasil1" src="https://github.com/user-attachments/assets/fe6e8546-e154-4be0-8100-875c8c4e8288" />
 
-HASIL-OUTPUT/hasil2.png
+
+<img width="516" height="577" alt="hasil2" src="https://github.com/user-attachments/assets/cdc3e8f7-469d-4d91-928b-bd664840bd90" />
+
 
