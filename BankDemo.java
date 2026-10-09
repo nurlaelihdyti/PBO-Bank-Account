@@ -10,7 +10,7 @@ public class BankDemo {
     public static void main(String[] args) {
         Bank bank = new Bank();
 
-        // Mengisi data nasabah, tiap nasabah punya 1 rekening dulu
+        // Mengisi data nasabah jadi tiap nasabah punya 1 rekening dulu
         bank.addCustomer("Adi", "Saputra");
         bank.getCustomer(0).setAccount(new Account(100000)); // saldo awal Rp 100.000
 
@@ -20,7 +20,7 @@ public class BankDemo {
         bank.addCustomer("Citra", "Dewi");
         bank.getCustomer(2).setAccount(new Account(500000));
 
-        // ===== BAGIAN 1: Soal Exercise B (nasabah Adi) =====
+        // ===== BAGIAN 1 (nasabah Adi) =====
         Account akunAdi = bank.getCustomer(0).getAccount(0);
 
         System.out.println("Welcome to Bank ABC");
@@ -37,7 +37,7 @@ public class BankDemo {
         System.out.println("Current balance: " + rp(akunAdi.getBalance()));
         System.out.println();
 
-        // ===== BAGIAN 2: Daftar semua nasabah =====
+        // ===== BAGIAN 2 Daftar semua nasabah =====
         System.out.println("=== Daftar Nasabah (" + bank.getNumOfCustomers() + " orang) ===");
         for (int i = 0; i < bank.getNumOfCustomers(); i++) {
             Customer c = bank.getCustomer(i);
@@ -46,7 +46,7 @@ public class BankDemo {
                     + " | Saldo rekening 1: " + rp(c.getAccount(0).getBalance()));
         }
 
-        // ===== BAGIAN 3: Menu ATM sederhana =====
+        // ===== BAGIAN 3 Menu ATM sederhana =====
         Scanner input = new Scanner(System.in);
 
         System.out.println();

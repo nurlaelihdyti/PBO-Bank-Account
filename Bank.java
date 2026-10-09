@@ -2,7 +2,7 @@ public class Bank {
     private Customer[] customers;    // ARRAY berisi objek Customer
     private int numberOfCustomers;   // penanda indeks kosong berikutnya
 
-    // Konstruktor: ukuran array 10 (lebih dari 5 sesuai soal)
+    // Konstruktor: ukuran array 10
     public Bank() {
         customers = new Customer[10];
         numberOfCustomers = 0;
